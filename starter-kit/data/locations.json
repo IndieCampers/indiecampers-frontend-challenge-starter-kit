@@ -1,0 +1,47 @@
+[
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal"
+  },
+  {
+    "id": "porto",
+    "name": "Porto",
+    "country": "Portugal"
+  },
+  {
+    "id": "faro",
+    "name": "Faro",
+    "country": "Portugal"
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid",
+    "country": "Spain"
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain"
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France"
+  },
+  {
+    "id": "munich",
+    "name": "Munich",
+    "country": "Germany"
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands"
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavik",
+    "country": "Iceland"
+  }
+]

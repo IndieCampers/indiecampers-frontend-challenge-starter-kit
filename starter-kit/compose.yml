@@ -1,0 +1,40 @@
+name: campervan-finder
+
+services:
+  # Development server with hot reload.
+  #   docker compose up --watch
+  # Edit files on your machine; changes are synced into the container and the
+  # browser updates automatically. If you add/remove npm packages, the image
+  # rebuilds on its own (see `develop.watch` below).
+  web:
+    build:
+      context: .
+      target: dev
+    init: true
+    ports:
+      - "3000:3000"
+    environment:
+      MOCK_DELAY_MS: ${MOCK_DELAY_MS:-600}
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - node_modules/
+            - .next/
+        - action: rebuild
+          path: package-lock.json
+
+  # Production build, the way we would ship it.
+  #   docker compose --profile prod up --build
+  prod:
+    profiles: [prod]
+    build:
+      context: .
+      target: runner
+    init: true
+    ports:
+      - "3001:3000"
+    environment:
+      MOCK_DELAY_MS: ${MOCK_DELAY_MS:-600}

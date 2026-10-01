@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6C98B"/>
+      <stop offset="0.55" stop-color="#F3A27A"/>
+      <stop offset="1" stop-color="#C9776E"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3A414B"/>
+      <stop offset="1" stop-color="#14181F"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0.45" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#sky)"/>
+  <circle cx="900" cy="250" r="90" fill="#FFE7B3" opacity="0.9"/>
+  <path d="M0 360 L180 250 L320 330 L470 210 L640 320 L780 240 L930 330 L1080 230 L1280 330 V640 H0 Z" fill="#8E6A7E" opacity="0.7"/>
+  <path d="M0 420 L160 340 L330 400 L520 320 L700 410 L880 340 L1060 410 L1280 350 V640 H0 Z" fill="#5E5470"/>
+  <path d="M0 480 C220 430 420 470 640 450 C860 430 1060 470 1280 440 V640 H0 Z" fill="#1F6F5C"/>
+  <path d="M0 540 C260 500 520 520 700 505 C900 490 1100 520 1280 500 V640 H0 Z" fill="#185A4A"/>
+  <path d="M560 640 L690 505 L720 505 L760 640 Z" fill="url(#road)"/>
+  <path d="M703 520 L705 545 M706 565 L709 600 M712 615 L714 640" stroke="#F4B740" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(470 470)">
+    <rect x="0" y="0" width="150" height="62" rx="14" fill="#F8F9FA"/>
+    <rect x="96" y="-14" width="54" height="40" rx="10" fill="#F8F9FA"/>
+    <rect x="104" y="-6" width="38" height="22" rx="5" fill="#9DB7C4"/>
+    <rect x="14" y="12" width="36" height="22" rx="5" fill="#9DB7C4"/>
+    <rect x="58" y="12" width="30" height="22" rx="5" fill="#9DB7C4"/>
+    <rect x="0" y="40" width="150" height="8" fill="#1F6F5C"/>
+    <circle cx="34" cy="64" r="13" fill="#14181F"/>
+    <circle cx="116" cy="64" r="13" fill="#14181F"/>
+    <circle cx="34" cy="64" r="5" fill="#CDD2D8"/>
+    <circle cx="116" cy="64" r="5" fill="#CDD2D8"/>
+  </g>
+  <rect width="1280" height="640" fill="url(#shade)"/>
+</svg>
