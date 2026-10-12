@@ -138,10 +138,6 @@ Don't worry about:
 - Pagination or "More filters"
 - Pixel-perfect matching where the design is ambiguous. Make a sensible call and mention it in your README.
 
-### Using AI tools
-
-**AI tools are welcome.** We use them every day. What matters is that you understand the result: you should be able to explain **every line** you submit.
-
 ## Submission
 
 1. Create a **private GitHub repository** with the **contents of `starter-kit/`** at its root, committed as-is on `main`.
